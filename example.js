@@ -7,8 +7,6 @@ export default class App extends Component {
    if(a){
     PowerManager.startIntent(a.package,a.class);
    }
-    alert(JSON.stringify(a));
-    PowerManager.show('LONG', PowerManager.LONG)
   }
  
 }
